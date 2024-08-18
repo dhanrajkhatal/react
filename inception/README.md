@@ -11,3 +11,7 @@ while including scripts in index.html script must be in sequence 1st include the
 you can put CDN scripts before the root tag inside head tag but cannot add the scripts which you have write before root because it will trough error while creating DOM element as it will not found container to create root element 
 
 if you put anything inside <div id="root">[[anything]]</div> after render call on root DOM element it will replace everything inside the div of root id element
+
+CDN is not recommended way to use react :
+ 1> it will request the network to download dependencies each time it load 
+ 2> it is difficult to manage version of react through CDN 
