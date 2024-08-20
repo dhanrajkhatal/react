@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 10px;
+}
+
+body {
+    margin: 0px;
+}
+
+.logo-container {
+   width: 180px;
+}
+
+.logo {
+    width: 100%;
+}
+
+.options-container {
+    width: 25%;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-card {
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    margin: 10px;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 70vh;
+}
+
+.course-card > .title {
+  color: black;
+}
